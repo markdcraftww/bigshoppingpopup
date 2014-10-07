@@ -1,0 +1,688 @@
+@font-face {
+    font-family: 'langdonregular';
+    src: url('../fonts/langdon-webfont.eot');
+    src: url('../fonts/langdon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/langdon-webfont.woff') format('woff'),
+         url('../fonts/langdon-webfont.ttf') format('truetype'),
+         url('../fonts/langdon-webfont.svg#langdonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font-family: Arial, 'langdonregular', sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #ddd;
+	text-rendering: optimizeLegibility;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 10px 0;
+	padding: 0;
+	font-family: 'langdonregular', sans-serif;
+	color: #fff;
+}
+h1 {
+	font-size: 18px;
+}
+.td {
+	display: table-cell;
+	vertical-align: middle;
+	height: 340px;
+}
+.menu-main-menu-container {
+	border-bottom: 1px solid #FFFFFF;
+    margin: 16px auto 16px auto;
+    overflow: hidden;
+}
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 48px;
+}
+.menu li {
+	display: block;
+	float: left;
+	padding-top: 6px;
+}
+.menu li a {
+	text-transform: uppercase;
+	font-family: 'langdonregular', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.menu li a:hover, .menu li.current-menu-item a:hover {
+	color: #939598;
+}
+.menu li.menu-item {
+}
+.menu li.menu-item {
+	text-align: justify;
+}
+.menu li.menu-item:first-child {
+	text-align: left;
+}
+.menu li.menu-item:last-child {
+	text-align: right;
+}
+.menu li.current-menu-item a {
+	color: #cc0056;
+}
+
+#bss-hp-date {
+margin-top: 40px;
+position:relative;
+top:10px;
+}
+
+#bss-home-page-container h1 {
+font-family: langdonregular;
+/* font-weight: bold; 
+letter-spacing: -0.4px;*/
+line-height: 22px;
+font-size: 22px;
+color: #FFFFFF;
+text-shadow: none;
+text-rendering: auto;
+margin-bottom: 30px;
+}
+
+#bss-hp-top {
+height: 356px;
+}
+
+#bss-hp-right-side {
+float: right;
+width: 415px;
+margin-top: 56px;
+margin-left: 15px;
+margin-right: 18px;
+}
+
+#bss-hp-footer {
+width: 100%;
+}
+
+#bss-hp-request-button {
+width: 88px;
+margin: 0 auto 0 auto;
+}
+
+.bss-hp-request-button {
+	display: block;
+	width: 90px;
+	height: 88px;
+	background: url('images/big-shopping-shakeup/request-invite-normal.png') bottom;
+	text-indent: -99999px;
+	cursor: pointer;
+}
+.bss-hp-request-button-clicked {
+	display: block;
+	width: 90px;
+	height: 88px;
+	background: url('images/big-shopping-shakeup/see-details.png') bottom !important;
+	text-indent: -99999px;
+	cursor: pointer;
+}
+
+.bss-hp-request-button-clicked:hover {
+	display: block;
+	width: 90px;
+	height: 88px;
+	background: url('images/big-shopping-shakeup/see-details-hover.png') bottom !important;
+	text-indent: -99999px;
+	cursor: pointer;
+}
+
+.bss-hp-request-button:hover {
+	
+	background: url('images/big-shopping-shakeup/request-invite-hover.png') bottom;
+	
+}
+
+#divb {
+display:none;
+}
+
+#invite-only {
+float:right;
+margin-top: 20px;
+margin-right: 140px;
+color: #808181;
+font-size: 12px;
+}
+
+/* #bss-hp-logo:hover {
+	
+	background: url('images/big-shopping-shakeup/logo-hover.png') bottom;
+	
+} */
+
+.hide {
+  display: none;
+}
+
+.about-request-button {
+position: relative;
+top: -12px;
+}
+
+.gform_wrapper .top_label .gfield_label {
+margin: 8px 0 4px 0 !important;
+}
+
+.gform_wrapper .top_label input.medium {
+padding-right: 2px;
+width: 382px !important;
+margin-bottom: 6px;
+border: 0px !Important;
+height: 20px;
+}
+
+.gform_body {
+font-family: georgia;
+font-size: 14px;
+}
+
+.gform_wrapper {
+margin-top: 0px !important;
+}
+
+.gform_wrapper .gfield_description {
+padding: 0px 0 0 0 !Important;
+width: 99.8%;
+font-size: 11px;
+color: #808181;
+}
+
+
+
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
+font-size: 1em;
+margin-left: 345px;
+}
+
+.gform_wrapper .gform_footer {
+padding: 0px 0 0px 0 !Important;
+margin: 0px 0 0 0 !Important;
+}
+
+.gform_button { 
+    background-image: url(images/big-shopping-shakeup/submit.png);
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 10px;
+    border: 0px;
+    background-color: #000000 !important;
+    cursor: pointer;
+    outline: 0;
+	text-indent: -9999px;
+}
+.gform_button:hover{ 
+      background-image: url(images/big-shopping-shakeup/submit-hover.png);
+	  background-color: #000000 !important;
+}
+
+.gform_footer.top_label {
+width: 98% !Important;
+}
+
+#bss-hp-right-side .gform_wrapper .validation_error {
+color: #FFFFFF !Important;
+}
+
+#bss-hp-right-side .gform_wrapper .validation_error {
+display: none !Important;
+}
+#bss-hp-right-side .gform_wrapper li.gfield.gfield_error .gfield_description {
+display: none !Important;
+}
+
+#bss-hp-right-side .gfield_description.validation_message {
+padding-top: 0px !Important;
+padding-bottom: 0px !Important;
+margin-top: 0px !Important;
+margin-bottom: 0px !Important;
+}
+
+#bss-hp-right-side .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
+margin-top: 1px;
+margin-bottom: 0px !Important;
+}
+
+#bss-hp-right-side .gform_wrapper li.gfield.gfield_error {
+padding: 0px 0px 0px 0px !important;
+}
+
+#bss-hp-right-side .gform_wrapper li.gfield.gfield_error {
+background: none !important;
+border: 0px !important;
+}
+
+#bss-hp-right-side .gform_wrapper .gfield_error .gfield_label {
+color: #e01919 !Important;
+}
+
+#bss-hp-right-side .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container {
+margin-top: 0px;
+}
+
+.gform_ajax_spinner {
+display: none !Important;
+}
+
+/*====================
+Big Shopping Shakeup Inner Page Styles
+=====================================*/
+
+#bss-content h1 {
+font-family: langdonregular;
+/* font-weight: bold; 
+letter-spacing: -0.4px;*/
+line-height: 18px;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+#bss-content h2 {
+font-family: langdonregular;
+/* font-weight: bold; 
+letter-spacing: -0.4px;*/
+line-height: 14px;
+font-size: 15px;
+color: #FFFFFF;
+}
+
+.timescenter {
+ font-family: langdonregular; 
+line-height: 14px;
+font-size: 15px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+
+
+#bss-content .bss-highlighted {
+color: #ed2b72 !important;
+}
+
+.post-edit-link {display: none;}
+
+#bss-content #bss-content-wrap p {
+font-family: Arial !important;
+color: #dddddd !important;
+font-size: 12px !important;
+line-height: 17px;
+margin-top: 3px;
+}
+
+
+#bss-innerpage-header {
+	height: 400px;
+	width: 100%;
+	display: table;
+}
+#bss-innerpage-header p {
+	line-height: 1.2 !important;
+	color: #ddd;
+}
+#bss-innerpage-header p strong {
+	font-family: Georgia;
+	color: #fff;
+	font-size: 14px;
+}
+#bss-innerpage-right-side {
+	height: 400px;
+	width: 478px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 30px;
+}
+#bss-hp-logo {
+	float: left;
+	width: 493px;
+	height: 337px;
+	display: table-cell;
+}
+
+
+#bss-right-side-button {
+float: right;
+background: url('images/big-shopping-shakeup/request-button.png');
+height: 88px;
+width: 90px;
+cursor: pointer;
+margin-top: 160px;
+margin-left: 33px;
+margin-right: 60px;
+}
+#bss-right-side-button:hover {
+float: right;
+background: url('images/big-shopping-shakeup/request-button-hover.png');
+height: 88px;
+width: 90px;
+cursor: pointer;
+}
+#buttonclick {
+height: 88px;
+width: 90px;
+}
+
+#bss-innerpage-right-side #bss-header-right-side-text {
+margin-top: 135px;
+float: left;
+font-size: 12px !important;
+line-height: 12px !important;
+position: relative;
+left: 17px;
+}
+
+#bss-innerpage-right-side #bss-header-right-side-text p {
+font-size: 14px !important;
+line-height: 17px !important;
+color: #FFFFFF !important;
+}
+
+
+#bss-header-right-side-text #bss-hp-date {
+color: #FFFFF !important;
+font-family: Georgia !important;
+}
+
+
+#bss-innerpage-wrapper #bss-innerpage-right-side #bss-innerpage-invite-onlytext  {
+font-size: 12px !important;
+color: #808181 !important;
+
+}
+
+#bss-innerpage-wrapper {
+
+}
+
+#bss-innerpage-wrapper, #bss-innerpage-wrapper p {
+color: #dddddd !important;
+font-family: arial !important;
+font-size: 12px !important;
+}
+
+#bss-innerpage-wrappper H1 {
+font-family: langdonregular;
+line-height: 22px;
+font-size: 22px;
+color: #FFFFFF;
+}
+
+#bss-menu {
+	height: 44px;
+	width: 843px;
+	border-bottom: 1px solid #FFFFFF;
+	margin: auto;
+	margin-bottom: 26px;
+}
+
+#bss-menu a:hover{
+color: #939598;
+}
+
+#bss-content {
+/* min-height: 287px; */
+padding-bottom: 56px;
+}
+
+#bss-content-wrap {
+
+width: 843px;
+margin: auto;
+height: auto;
+overflow: auto;
+}
+
+.bss-menu-item {
+/* width: 20%; */
+float: left;
+padding-top: 6px;
+margin-left: 131px;
+}
+.bss-menu-item-last {
+float: left;
+padding-top: 6px;
+margin-left: 131px;
+}
+
+.bss-menu-item-first {
+float: left;
+padding-top: 6px;
+}
+
+.bss-content-left {
+float: left;
+width: 534px;
+
+}
+
+.bss-content-right {
+float: right;
+width: 259px;
+text-align: right;
+padding-left: 20px;
+
+}
+
+#algonquin, #chatwal, #muse, #refinery, #timehotel, #westin {
+cursor: pointer;
+}
+
+.bss-content-right-truth {
+float: right;
+width: 259px;
+text-align: left;
+padding-left: 20px;
+padding-right: 20px;
+height: 375px;
+overflow: hidden;
+overflow-y: scroll;
+color: #ddd;
+font-size: 12px;
+line-height: 1.4;
+}
+
+.bss-content-right-truth-page {
+float: right;
+width: 259px;
+text-align: left;
+padding-left: 20px;
+
+}
+
+ ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 8px;
+}
+
+  ::-webkit-scrollbar-track {
+    background-color: rgba(57,57,57, .6);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: rgba(156, 156, 156, .6);
+}
+
+.bss-content-right-truth h1 {
+margin-bottom: 15px !important;
+}
+
+
+.bss-agenda-seperator {
+width: 89px;
+float: left;
+font-weight: bold;
+}
+
+.agenda-time {
+width: 74px;
+background-image: none !important;
+
+font-family: arial;
+font-weight: bold;
+font-size: 14px;
+color: #FFFFFF;
+}
+
+.bss-agenda-item {
+margin-bottom: 25px;
+margin-left: 96px;
+margin-top: 2px;
+}
+
+.bss-agenda-titles {
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.bss-agenda-subtitle {
+text-align: center;
+font-family: langdonregular;
+/* font-weight: bold; 
+letter-spacing: -0.4px;*/
+line-height: 18px;
+font-size: 24px;
+color: #FFFFFF;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+#speakers-bio-right {
+float: right;
+width: 550px;
+}
+
+#speakers-bio-right-bottom {
+border-top: 1px solid white;
+width: 255px;
+padding-top: 15px;
+border-bottom: 1px solid white;
+padding-bottom: 15px;
+margin-top: 60px;
+}
+
+#bss-content-wrap .bss-speakers-row a {
+color: #FFFFFF !important;
+}
+
+#speakers-bio-previous {
+padding-bottom: 15px;
+border-bottom: 1px solid white;
+}
+
+#speakers-bio-next {
+padding-top: 15px;
+}
+
+#speakers-bio-left #speakers-bio-right-bottom a {
+font-family: langdonregular;
+line-height: 14px;
+font-size: 15px;
+color: #FFFFFF !important;
+}
+
+.bss-speakers-row {
+width: 100%;
+clear: both;
+margin-bottom: 21px;
+overflow: hidden;
+}
+
+.bss-speaker-one {
+width: 293px;
+float: left;
+}
+
+.bss-speaker-two {
+width: 293px;
+float: right;
+}
+
+.bss-speaker-three {
+width: 254px;
+float: right;
+margin-bottom: 21px;
+}
+#bss-content a{
+color: #cc0056 !important;
+}
+
+
+#request-invite-page .gform_heading {
+display: none;
+}
+
+#request-invite-page {
+margin: auto;
+width: 50%;
+}
+
+#bss-hp-mainmenu {
+margin: 14px 0 14px 0;
+font-family: langdonregular;
+text-transform: uppercase;
+font-size: 15px;
+}
+
+#wcl {
+padding-right: 50px;
+background: url('images/big-shopping-shakeup/bardevider.png') no-repeat top right;
+cursor: pointer;
+color: #FFFFFF !important;
+}
+
+#wcl:hover {
+color: #939598 !important;
+}
+
+#bssnetworking {
+padding-right: 50px;
+padding-left: 50px;
+background: url('images/big-shopping-shakeup/bardevider.png') no-repeat top right;
+cursor: pointer;
+color: #FFFFFF !important;
+}
+#bssnetworking:hover {
+color: #939598 !important;
+}
+#bssia {
+padding-left: 50px;
+cursor: pointer;
+color: #FFFFFF !important;
+}
+#bssia:hover {
+color: #939598 !important;
+}
+
+#bss-hp-mainmenu .selected {
+color: #cc0056 !important;
+}
+
+.bsshp-subheadline {
+padding-top: 10px !important;
+}
+
+
+
+#workshop-agenda {
+border-right: solid 2px #ed2b72;
+padding-right: 5px;
+font-family: langdonregular;
+line-height: 18px;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+
+#workshop-top-content {
+margin-left: 74px;
+}

@@ -1,0 +1,225 @@
+/*
+Theme Name: The Big Shopping Popup
+Theme URI: http://thebigshoppingpopup.com
+Description: 
+Version: 
+Author: Mark Duwe
+Author URI: http://craftww.com
+Tags: black, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, featured-images, translation-ready, accessibility-ready
+Text Domain: bss 
+License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+License URI: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US
+*/
+@font-face {
+    font-family: 'langdonregular';
+    src: url('fonts/langdon-webfont.eot');
+    src: url('fonts/langdon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/langdon-webfont.woff') format('woff'),
+         url('fonts/langdon-webfont.ttf') format('truetype'),
+         url('fonts/langdon-webfont.svg#langdonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+html, body { 
+	height: 100%; 
+}
+body {
+	font-family: Arial, 'langdonregular', sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #111;
+	text-rendering: optimizeLegibility;
+	font-weight: 300;
+}
+.hide { 
+	display: none;
+}
+a {
+	text-decoration: none;
+	color: #c40079;
+}
+p {
+	margin: 0 0 15px 0;
+}
+.alignleft {
+	float: left;
+	margin: 0 12px 0 0;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+	margin: 0 auto;
+	display: block;
+}
+.alignnone {
+	float: none;
+}
+img {
+	outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-family: 'langdonregular', sans-serif;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 18px;
+}
+.td .spacing strong {
+	color: #111;
+}
+.menu-main-menu-container {
+	font-family: 'langdonregular', sans-serif;
+	border-bottom: 1px solid #111;
+    margin: 16px auto 26px auto;
+    overflow: hidden;
+}
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li {
+	display: block;
+	float: left;
+	padding-top: 6px;
+}
+.menu li a {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #111;
+	display: block;
+	padding: 10px 0;
+	color: #111;
+}
+.menu [class*='col-'] {
+	padding-right: 0;
+}
+.menu li a:hover, .menu li.current-menu-item a:hover {
+	color: #939598;
+}
+.menu li.menu-item {
+}
+.menu li.menu-item {
+	text-align: center;
+}
+.menu li.current-menu-item a, .single-speaker .menu li.menu-item-18 a {
+	color: #c40079;
+}
+.spacing {
+	padding: 0 20px;
+}
+.locator {
+	background: url(images/locator-symbol.png) no-repeat left top;
+	padding: 0 20px 0 30px;
+}
+.time h3 {
+	font-family: Arial, sans-serif;
+	font-weight: 600;
+	color: #111;
+	line-height: 1.6;
+}
+.format-status .col-10-1 h2 {
+	color: #c40079;
+}
+.hotel h4 {
+	margin: 3px 0;
+}
+.hotel p {
+	margin: 0 0 10px 0;
+}
+.hotels {
+	height: 550px;
+	overflow: auto;
+}
+.speakerHolder {
+	margin: 0 auto;
+	padding: 0 0 0 20px;
+}
+.speaker {
+	line-height: 1;
+	margin-bottom: 20px;
+}
+.speaker a {
+	color: #111;
+}
+.speaker a h2 , .speaker h2 {
+	color: #111;
+}
+.speaker h2 {
+	font-size: 18px;
+	margin: 3px 0;
+}
+.speaker p {
+	margin: 0 0 3px 0;
+}
+.social {
+	font-size: 36px;
+	line-height: 1;
+}
+.menu-mobile {
+	clear: both;
+	cursor: pointer;
+	padding: 5px 20px;
+}
+.burger {
+	background: #c40079;
+	width: 32px;
+	height: 3px;
+	margin: 2px 0;
+	display: block;
+	border-radius: 2px;
+}
+.twitter-timeline {
+
+}
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+
+.customisable-border.thm-dark, .thm-dark .customisable-border {
+    border-color: #ededed;
+}
+
+@font-face {
+	font-family: 'gif';
+	src:url('fonts/gif.eot?ecgpjz');
+	src:url('fonts/gif.eot?#iefixecgpjz') format('embedded-opentype'),
+		url('fonts/gif.woff?ecgpjz') format('woff'),
+		url('fonts/gif.ttf?ecgpjz') format('truetype'),
+		url('fonts/gif.svg?ecgpjz#gif') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'gif';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter-square:before {
+	content: "\f081";
+}
+.icon-facebook-square:before {
+	content: "\f082";
+}
